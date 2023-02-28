@@ -1,0 +1,224 @@
+
+/*========================================header start here-==========*/
+.moh{
+  position: fixed;
+  width: 100%;
+}
+.moh .moha{
+  display: flex;
+
+  background-color: rgb(6, 172, 94);
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+ 
+}
+.moh .moha img{
+  width: 10%;
+  height: 85px;
+  margin-left: -5px;
+  margin-top: -8px;
+  
+}
+.moh .moha h2{
+  color: rgb(13, 43, 70);
+  font-size: 25px;
+  padding-top: 10px;
+}
+.moh .moha nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 25px;
+}
+ .moh .moha nav ul li {
+  padding: 12px;
+}
+
+.moh .moha nav ul li a{
+  color: rgb(4, 238, 187);
+  text-decoration: none;
+}
+.moh .moha .ma{
+  color: rgb(7, 8, 8);
+}
+.moh .moha ul li  :hover{
+  padding: 5px;
+  border-radius: 12px;
+ background-color: rgba(17, 1, 1, 0.568);
+ color: rgba(255, 217, 0, 0.705);
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^end header*/
+/*===============================================================body start*/
+
+.moh .mh {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+ background-size: cover;
+  flex-flow: column;
+  margin-left: -8px;
+}
+.moh .mh h4{
+  font-size: 30px;
+  position: fixed;
+  color: brown;
+  padding: 10%;
+}
+.moh .mh a {
+  padding: 20%;
+}
+.moh .mh .btn{
+  background-color: gold;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+}
+/* ==================================index end */
+.body-t{
+  background-color: rgba(107, 107, 106, 0.822);
+}
+.teachers{
+  padding-left: 3%;
+}
+.teachers img{
+  margin-top: 5px;
+  margin-left: 12px;
+  width: 400px;
+  height: 245px;
+  border: 5px dotted rgb(139, 185, 12);
+  border-radius: 15px;
+}
+/* ----------------------body of about start here */
+#abot{
+  background-color: rgb(128, 128, 128);
+}
+.bdy{
+  display: flex;
+}
+.bdy p{
+  
+  font-size: 40px;
+  padding: 12px;
+}
+.bdy img {
+  margin-right: 2%;
+  margin-top: 2%;
+  width: 450px;
+  height: 350px;
+  float: left;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 50px;
+}
+/* ===========================lecture body stert here */
+#lec{
+  position: absolute;
+  background-color: rgb(148, 125, 125);
+}
+.lecture{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lecture .mj{
+  padding-bottom: 0px;
+  border-radius: 15px;
+  border: 2px solid red;
+  margin: 5px 35px;
+  width: 200px;
+  height: 230px;
+}
+.lecture .mj img{
+  width: 200px;
+  height: 100px;
+  border-radius: 15px;
+}
+.lecture .mj .rate{
+  width: 130;
+  height: 30px;
+}
+.lecture .mj h4{
+  margin-top: -0px;
+  margin-bottom: -56px;
+  margin-right: 20px;
+  float: right;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 25px;
+  background-color: yellow;
+  border-radius: 80px;
+}
+.lecture .mj h3{
+  font-size: 15px;
+  margin-top: -0.5px;
+  text-align: center;
+}
+.lecture .mj p{
+  margin-top: -12px;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 2px;
+}
+.lecture .mj button{
+  background-color: rgba(128, 128, 128, 0.534);
+  width: 199px;
+  font-size: 15px;
+  border-bottom: none;
+  border-left: 1px solid rgb(48, 40, 40);
+  border-top: 1px solid rgb(48, 40, 40);
+  border-radius: 20px;
+}
+/* contact start here======================================= */
+
+.c-body {
+  background-color: #111;
+}
+.forms .h1h{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.forms .fosm{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.forms .fosm .fom{
+  flex: 1px;
+  background-color: #222;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1%;
+  justify-content: space-between;
+}
+.forms .fosm .fom .foms{
+  color: white;
+  font-size: 20px;
+  background: none;
+  width: 49%;
+  height: 55px;
+  padding: 0% 1rem;
+  margin: 1rem 0;
+  border: 1px solid #eee;
+
+}
+.forms .fosm .fom .address{
+  width: 100%;
+  height: 7rem;
+}
+.forms .fosm .fom .sent{
+  background-color: orange;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  width: 160px;
+  margin-left: 43%;
+}
